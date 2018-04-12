@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		594E426620203D39006C3396 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E426520203D39006C3396 /* TaskListViewController.swift */; };
+		594E426A20203DEB006C3396 /* TaskListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E426820203DEB006C3396 /* TaskListCell.swift */; };
+		594E426B20203DEB006C3396 /* TaskListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594E426920203DEB006C3396 /* TaskListCell.xib */; };
+		594E426D20204451006C3396 /* TaskListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E426C20204451006C3396 /* TaskListModel.swift */; };
+		72191CF41FF0AECC00D7DC12 /* AIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72191CDC1FF0AECC00D7DC12 /* AIExtensions.swift */; };
+		72191CF51FF0AECC00D7DC12 /* AIEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72191CDE1FF0AECC00D7DC12 /* AIEnums.swift */; };
+		72191CF61FF0AECC00D7DC12 /* AIGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72191CDF1FF0AECC00D7DC12 /* AIGlobals.swift */; };
+		72191CF71FF0AECC00D7DC12 /* AIServiceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72191CE01FF0AECC00D7DC12 /* AIServiceConstants.swift */; };
+		72191CF81FF0AECC00D7DC12 /* AILoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72191CE21FF0AECC00D7DC12 /* AILoader.swift */; };
+		72191CF91FF0AECC00D7DC12 /* AIReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72191CE41FF0AECC00D7DC12 /* AIReachabilityManager.swift */; };
+		72191CFA1FF0AECC00D7DC12 /* AIServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72191CE61FF0AECC00D7DC12 /* AIServiceManager.swift */; };
+		72191CFB1FF0AECC00D7DC12 /* AIUtilsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72191CE81FF0AECC00D7DC12 /* AIUtilsManager.swift */; };
+		72191D051FF0B69C00D7DC12 /* LoginViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72191D041FF0B69C00D7DC12 /* LoginViewContoller.swift */; };
+		72191D081FF0BBBE00D7DC12 /* GPSTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72191D071FF0BBBE00D7DC12 /* GPSTrackerViewController.swift */; };
+		72191D0B1FF0D79300D7DC12 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72191D0A1FF0D79300D7DC12 /* LocationService.swift */; };
+		72191D101FF0DECD00D7DC12 /* AIUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72191D0E1FF0DECD00D7DC12 /* AIUser.swift */; };
+		72623DA71FEE868400560227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72623DA61FEE868400560227 /* AppDelegate.swift */; };
+		72623DA91FEE868400560227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72623DA81FEE868400560227 /* ViewController.swift */; };
+		72623DAC1FEE868400560227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72623DAA1FEE868400560227 /* Main.storyboard */; };
+		72623DAE1FEE868400560227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72623DAD1FEE868400560227 /* Assets.xcassets */; };
+		72623DB11FEE868400560227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72623DAF1FEE868400560227 /* LaunchScreen.storyboard */; };
+		94D02FAADED879EFA154CC32 /* Pods_GPSTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A8657B8B8FE5D83DC93152 /* Pods_GPSTracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		594E426520203D39006C3396 /* TaskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		594E426820203DEB006C3396 /* TaskListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListCell.swift; sourceTree = "<group>"; };
+		594E426920203DEB006C3396 /* TaskListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskListCell.xib; sourceTree = "<group>"; };
+		594E426C20204451006C3396 /* TaskListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListModel.swift; sourceTree = "<group>"; };
+		72191CDC1FF0AECC00D7DC12 /* AIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIExtensions.swift; sourceTree = "<group>"; };
+		72191CDE1FF0AECC00D7DC12 /* AIEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIEnums.swift; sourceTree = "<group>"; };
+		72191CDF1FF0AECC00D7DC12 /* AIGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIGlobals.swift; sourceTree = "<group>"; };
+		72191CE01FF0AECC00D7DC12 /* AIServiceConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIServiceConstants.swift; sourceTree = "<group>"; };
+		72191CE21FF0AECC00D7DC12 /* AILoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AILoader.swift; sourceTree = "<group>"; };
+		72191CE41FF0AECC00D7DC12 /* AIReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIReachabilityManager.swift; sourceTree = "<group>"; };
+		72191CE61FF0AECC00D7DC12 /* AIServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIServiceManager.swift; sourceTree = "<group>"; };
+		72191CE81FF0AECC00D7DC12 /* AIUtilsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIUtilsManager.swift; sourceTree = "<group>"; };
+		72191D041FF0B69C00D7DC12 /* LoginViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewContoller.swift; sourceTree = "<group>"; };
+		72191D071FF0BBBE00D7DC12 /* GPSTrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSTrackerViewController.swift; sourceTree = "<group>"; };
+		72191D0A1FF0D79300D7DC12 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		72191D0E1FF0DECD00D7DC12 /* AIUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIUser.swift; sourceTree = "<group>"; };
+		72623DA31FEE868400560227 /* GPSTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72623DA61FEE868400560227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72623DA81FEE868400560227 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72623DAB1FEE868400560227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72623DAD1FEE868400560227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72623DB01FEE868400560227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72623DB21FEE868400560227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A8657B8B8FE5D83DC93152 /* Pods_GPSTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPSTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D7CF1F52AD53AD4260DEA6 /* Pods-GPSTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPSTracker/Pods-GPSTracker.release.xcconfig"; sourceTree = "<group>"; };
+		E4E3ED6FC3F50DD3325690B5 /* Pods-GPSTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPSTracker/Pods-GPSTracker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72623DA01FEE868400560227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D02FAADED879EFA154CC32 /* Pods_GPSTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594E426420203D2A006C3396 /* TaskList */ = {
+			isa = PBXGroup;
+			children = (
+				594E426520203D39006C3396 /* TaskListViewController.swift */,
+			);
+			path = TaskList;
+			sourceTree = "<group>";
+		};
+		594E426720203DDD006C3396 /* TableviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				594E426820203DEB006C3396 /* TaskListCell.swift */,
+				594E426920203DEB006C3396 /* TaskListCell.xib */,
+			);
+			path = TableviewCell;
+			sourceTree = "<group>";
+		};
+		72191CDA1FF0AECC00D7DC12 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				72191D091FF0D79300D7DC12 /* AILocationManager */,
+				72191CDB1FF0AECC00D7DC12 /* AIExtensions */,
+				72191CDD1FF0AECC00D7DC12 /* AIHeaders */,
+				72191CE11FF0AECC00D7DC12 /* AILoader */,
+				72191CE31FF0AECC00D7DC12 /* AIReachabilityManager */,
+				72191CE51FF0AECC00D7DC12 /* AIServiceManager */,
+				72191CE71FF0AECC00D7DC12 /* AIUtilsManager */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		72191CDB1FF0AECC00D7DC12 /* AIExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				72191CDC1FF0AECC00D7DC12 /* AIExtensions.swift */,
+			);
+			path = AIExtensions;
+			sourceTree = "<group>";
+		};
+		72191CDD1FF0AECC00D7DC12 /* AIHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				72191CDE1FF0AECC00D7DC12 /* AIEnums.swift */,
+				72191CDF1FF0AECC00D7DC12 /* AIGlobals.swift */,
+				72191CE01FF0AECC00D7DC12 /* AIServiceConstants.swift */,
+			);
+			path = AIHeaders;
+			sourceTree = "<group>";
+		};
+		72191CE11FF0AECC00D7DC12 /* AILoader */ = {
+			isa = PBXGroup;
+			children = (
+				72191CE21FF0AECC00D7DC12 /* AILoader.swift */,
+			);
+			path = AILoader;
+			sourceTree = "<group>";
+		};
+		72191CE31FF0AECC00D7DC12 /* AIReachabilityManager */ = {
+			isa = PBXGroup;
+			children = (
+				72191CE41FF0AECC00D7DC12 /* AIReachabilityManager.swift */,
+			);
+			path = AIReachabilityManager;
+			sourceTree = "<group>";
+		};
+		72191CE51FF0AECC00D7DC12 /* AIServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				72191CE61FF0AECC00D7DC12 /* AIServiceManager.swift */,
+			);
+			path = AIServiceManager;
+			sourceTree = "<group>";
+		};
+		72191CE71FF0AECC00D7DC12 /* AIUtilsManager */ = {
+			isa = PBXGroup;
+			children = (
+				72191CE81FF0AECC00D7DC12 /* AIUtilsManager.swift */,
+			);
+			path = AIUtilsManager;
+			sourceTree = "<group>";
+		};
+		72191D061FF0BBB100D7DC12 /* GPSTrackerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				72191D071FF0BBBE00D7DC12 /* GPSTrackerViewController.swift */,
+			);
+			path = GPSTrackerViewController;
+			sourceTree = "<group>";
+		};
+		72191D091FF0D79300D7DC12 /* AILocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				72191D0A1FF0D79300D7DC12 /* LocationService.swift */,
+			);
+			path = AILocationManager;
+			sourceTree = "<group>";
+		};
+		72191D0C1FF0DE7D00D7DC12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72191D0D1FF0DECD00D7DC12 /* AIUser */,
+				594E426C20204451006C3396 /* TaskListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72191D0D1FF0DECD00D7DC12 /* AIUser */ = {
+			isa = PBXGroup;
+			children = (
+				72191D0E1FF0DECD00D7DC12 /* AIUser.swift */,
+			);
+			path = AIUser;
+			sourceTree = "<group>";
+		};
+		72623D9A1FEE868400560227 = {
+			isa = PBXGroup;
+			children = (
+				72623DA51FEE868400560227 /* GPSTracker */,
+				72623DA41FEE868400560227 /* Products */,
+				764A90D416F1BE707FFF27BB /* Pods */,
+				92D722E852E68B7237BA2D83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72623DA41FEE868400560227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72623DA31FEE868400560227 /* GPSTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72623DA51FEE868400560227 /* GPSTracker */ = {
+			isa = PBXGroup;
+			children = (
+				594E426720203DDD006C3396 /* TableviewCell */,
+				72191D0C1FF0DE7D00D7DC12 /* Model */,
+				72191CDA1FF0AECC00D7DC12 /* Utils */,
+				72623DB81FEE86CA00560227 /* ViewControllers */,
+				72623DA61FEE868400560227 /* AppDelegate.swift */,
+				72623DA81FEE868400560227 /* ViewController.swift */,
+				72623DAA1FEE868400560227 /* Main.storyboard */,
+				72623DAD1FEE868400560227 /* Assets.xcassets */,
+				72623DAF1FEE868400560227 /* LaunchScreen.storyboard */,
+				72623DB21FEE868400560227 /* Info.plist */,
+			);
+			path = GPSTracker;
+			sourceTree = "<group>";
+		};
+		72623DB81FEE86CA00560227 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				594E426420203D2A006C3396 /* TaskList */,
+				72191D061FF0BBB100D7DC12 /* GPSTrackerViewController */,
+				72623DB91FEE86FF00560227 /* LoginViewContoller */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		72623DB91FEE86FF00560227 /* LoginViewContoller */ = {
+			isa = PBXGroup;
+			children = (
+				72191D041FF0B69C00D7DC12 /* LoginViewContoller.swift */,
+			);
+			path = LoginViewContoller;
+			sourceTree = "<group>";
+		};
+		764A90D416F1BE707FFF27BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4E3ED6FC3F50DD3325690B5 /* Pods-GPSTracker.debug.xcconfig */,
+				B5D7CF1F52AD53AD4260DEA6 /* Pods-GPSTracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92D722E852E68B7237BA2D83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3A8657B8B8FE5D83DC93152 /* Pods_GPSTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72623DA21FEE868400560227 /* GPSTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72623DB51FEE868400560227 /* Build configuration list for PBXNativeTarget "GPSTracker" */;
+			buildPhases = (
+				48E26EA38ADE67A56EAFB384 /* [CP] Check Pods Manifest.lock */,
+				72623D9F1FEE868400560227 /* Sources */,
+				72623DA01FEE868400560227 /* Frameworks */,
+				72623DA11FEE868400560227 /* Resources */,
+				C9D89476F4F12091311EA7DF /* [CP] Embed Pods Frameworks */,
+				4D56AB1E1D167BEA30DC184D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPSTracker;
+			productName = GPSTracker;
+			productReference = 72623DA31FEE868400560227 /* GPSTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72623D9B1FEE868400560227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sensu Soft";
+				TargetAttributes = {
+					72623DA21FEE868400560227 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WZWQ8Z2S8N;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 72623D9E1FEE868400560227 /* Build configuration list for PBXProject "GPSTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72623D9A1FEE868400560227;
+			productRefGroup = 72623DA41FEE868400560227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72623DA21FEE868400560227 /* GPSTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72623DA11FEE868400560227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594E426B20203DEB006C3396 /* TaskListCell.xib in Resources */,
+				72623DB11FEE868400560227 /* LaunchScreen.storyboard in Resources */,
+				72623DAE1FEE868400560227 /* Assets.xcassets in Resources */,
+				72623DAC1FEE868400560227 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48E26EA38ADE67A56EAFB384 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPSTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D56AB1E1D167BEA30DC184D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPSTracker/Pods-GPSTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9D89476F4F12091311EA7DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GPSTracker/Pods-GPSTracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPSTracker/Pods-GPSTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72623D9F1FEE868400560227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72191CF61FF0AECC00D7DC12 /* AIGlobals.swift in Sources */,
+				72191CFA1FF0AECC00D7DC12 /* AIServiceManager.swift in Sources */,
+				72623DA91FEE868400560227 /* ViewController.swift in Sources */,
+				72191CF91FF0AECC00D7DC12 /* AIReachabilityManager.swift in Sources */,
+				72191CF81FF0AECC00D7DC12 /* AILoader.swift in Sources */,
+				72191CF71FF0AECC00D7DC12 /* AIServiceConstants.swift in Sources */,
+				72191D081FF0BBBE00D7DC12 /* GPSTrackerViewController.swift in Sources */,
+				72191D051FF0B69C00D7DC12 /* LoginViewContoller.swift in Sources */,
+				72191D101FF0DECD00D7DC12 /* AIUser.swift in Sources */,
+				72191CF51FF0AECC00D7DC12 /* AIEnums.swift in Sources */,
+				594E426D20204451006C3396 /* TaskListModel.swift in Sources */,
+				72191D0B1FF0D79300D7DC12 /* LocationService.swift in Sources */,
+				72191CFB1FF0AECC00D7DC12 /* AIUtilsManager.swift in Sources */,
+				594E426A20203DEB006C3396 /* TaskListCell.swift in Sources */,
+				72623DA71FEE868400560227 /* AppDelegate.swift in Sources */,
+				72191CF41FF0AECC00D7DC12 /* AIExtensions.swift in Sources */,
+				594E426620203D39006C3396 /* TaskListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72623DAA1FEE868400560227 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72623DAB1FEE868400560227 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72623DAF1FEE868400560227 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72623DB01FEE868400560227 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72623DB31FEE868400560227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72623DB41FEE868400560227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72623DB61FEE868400560227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E3ED6FC3F50DD3325690B5 /* Pods-GPSTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GPSTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.GPSTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72623DB71FEE868400560227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D7CF1F52AD53AD4260DEA6 /* Pods-GPSTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GPSTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.GPSTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72623D9E1FEE868400560227 /* Build configuration list for PBXProject "GPSTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72623DB31FEE868400560227 /* Debug */,
+				72623DB41FEE868400560227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72623DB51FEE868400560227 /* Build configuration list for PBXNativeTarget "GPSTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72623DB61FEE868400560227 /* Debug */,
+				72623DB71FEE868400560227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72623D9B1FEE868400560227 /* Project object */;
+}
